@@ -1,6 +1,6 @@
 # Ankit-Kumar-Khandwe-DBMS-AssignmentSolution
 
-Problem Statement →
+> Problem Statement →
 A travel company TravelOnTheGo maintains the record of passengers and price to travel
 between two cities, for bus types (Sitting and Sleeper).
 
@@ -58,6 +58,7 @@ Sitting 1500 1860
 
 
 > Write queries for the following:
+
 3) How many females and how many male passengers travelled for a minimum distance of
 600 KM s?
 4) Find the minimum ticket price for Sleeper Bus.
@@ -73,9 +74,10 @@ distances) in descending order.
 10) Display the passenger name and percentage of distance travelled by that passenger
 from the total distance travelled by all passengers without using user variables
 11) Display the distance, price in three categories in table Price
-a) Expensive if the cost is more than 1000
-b) Average Cost if the cost is less than 1000 and greater than 500
-c) Cheap otherwise
+  a) Expensive if the cost is more than 1000
+  b) Average Cost if the cost is less than 1000 and greater than 500
+  c) Cheap otherwise
+  
 Sample output for 11th question
 350 770 Average
 Cost
