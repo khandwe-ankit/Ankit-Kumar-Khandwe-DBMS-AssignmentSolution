@@ -2,6 +2,7 @@ DROP DATABASE IF EXISTS `TravelOnTheGo`;
 CREATE DATABASE `TravelOnTheGo` ;
 USE `TravelOnTheGo`;
 
+DROP TABLE IF EXISTS `passengers`;
 CREATE TABLE `passengers` (
 Passenger_name varchar(30),
  Category varchar(30),
@@ -11,6 +12,7 @@ Passenger_name varchar(30),
  Distance int,
  Bus_Type varchar(30));
  
+ DROP TABLE IF EXISTS `price`;
  CREATE TABLE `price`(
  Bus_Type varchar(30),
  Distance int,
